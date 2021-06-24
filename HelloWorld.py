@@ -5,4 +5,4 @@ app = Flask(__name__)
 def index():
     return 'Hello World!'
 
-app.run(port=5111)
+app.run(host='0.0.0.0')
